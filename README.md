@@ -18,60 +18,60 @@ The system achieves 96.29% accuracy and 0.9995 ROC‑AUC, with full interpretabi
 ->ConvNeXt‑Small<br>
 ->ConvNeXt‑Base<br>
 
-All combined using learnable ensemble weights for optimal performance.
+All combined using learnable ensemble weights for optimal performance.<br>
 
-🧠 Interpretability
+🧠 Interpretability<br>
 Grad‑CAM heatmaps for each model:<br>
 ->Highlights regions influencing predictions<br>
 ->Ensures model focuses on relevant histopathological structures<br>
-“Interpretability is provided through Grad‑CAM attention maps, which highlight regions contributing most to each prediction.”
+“Interpretability is provided through Grad‑CAM attention maps, which highlight regions contributing most to each prediction.”<br>
 
 ## 📊Comprehensive Evaluation
-*Accuracy, Precision, Recall, Macro F1
-*Per‑class metrics
-*Log Loss
-*ROC‑AUC (OvR & OvO)
-*Confusion Matrix
-*Per‑class metric plots
-*ROC curves
-*Grad‑CAM visualizations
+*Accuracy, Precision, Recall, Macro F1<br>
+*Per‑class metrics<br>
+*Log Loss<br>
+*ROC‑AUC (OvR & OvO)<br>
+*Confusion Matrix<br>
+*Per‑class metric plots<br>
+*ROC curves<br>
+*Grad‑CAM visualizations<br>
 
 ## ⚙️Configurable Training Pipeline
-*AdamW optimizer
-*CosineAnnealingLR scheduler
-*Early stopping
-*Cross‑validation support
-*YAML‑based configuration
+*AdamW optimizer<br>
+*CosineAnnealingLR scheduler<br>
+*Early stopping<br>
+*Cross‑validation support<br>
+*YAML‑based configuration<br>
 
 ## 📁Project Structure:
-project/
-├── config.yaml
-├── train.py
-├── test.py
-├── infer.py
-├── requirements.txt
+project/<br>
+├── config.yaml<br>
+├── train.py<br>
+├── test.py<br>
+├── infer.py<br>
+├── requirements.txt<br>
 ├── src/
-│   ├── dataset.py
-│   ├── model.py
-│   ├── grad_cam.py
-│   └── utils.py
+│   ├── dataset.py<br>
+│   ├── model.py<br>
+│   ├── grad_cam.py<br>
+│   └── utils.py<br>
 ├── checkpoints/
 ├── logs/
 ├── reports/
-│   ├── test_metrics.json
-│   ├── confusion_matrix.png
-│   ├── per_class_metrics.png
-│   ├── roc_curves.png
-│   └── grad_cam/
+│   ├── test_metrics.json<br>
+│   ├── confusion_matrix.png<br>
+│   ├── per_class_metrics.png<br>
+│   ├── roc_curves.png<br>
+│   └── grad_cam/<br>
 └── data/
-    ├── train/
-    ├── val/
-    └── test/
+    ├── train/<br>
+    ├── val/<br>
+    └── test/<br>
     
 ## 📈 Model Performance:
-From the evaluation report:
-“Overall accuracy: 96.29%, Macro F1‑Score: 96.19%, ROC‑AUC: 0.99954.”
-“Per‑class performance includes ADI F1: 96.57%, DEB F1: 96.77%, LYM F1: 95.88%, MUC F1: 95.53%.”
+From the evaluation report:<br>
+“Overall accuracy: 96.29%, Macro F1‑Score: 96.19%, ROC‑AUC: 0.99954.”<br>
+“Per‑class performance includes ADI F1: 96.57%, DEB F1: 96.77%, LYM F1: 95.88%, MUC F1: 95.53%.”<br>
 
 ## Summary:
 | Metric | Score |
@@ -84,9 +84,9 @@ From the evaluation report:
 | **ROC‑AUC (OvR/OvO)** | 0.99954 / 0.99954 |
 
 ## 🏗️ Installation:
-git clone <your-repo-url>
-cd project
-pip install -r requirements.txt
+git clone <your-repo-url><br>
+cd project<br>
+pip install -r requirements.txt<br>
 
 ## ⚙️ Configuration:
 num_classes: 4
@@ -108,66 +108,37 @@ train:
   early_stopping_patience: 8
   
 ## 🏋️ Training:
-python train.py --config config.yaml
+python train.py --config config.yaml<br>
 Outputs:
-*Best/last checkpoints
-*TensorBoard logs
-*Metrics CSV
+*Best/last <br>
+*TensorBoard logs<br>
+*Metrics CSV<br>
 
 ## 🧪 Evaluation:
-python test.py \
-  --data_dir data/test \
-  --checkpoint checkpoints/best.pth \
-  --output_dir reports
-Generates:
-->test_metrics.json
-->Confusion matrix
-->Per‑class metrics plot
-->ROC curves
-->Grad‑CAM visualizations
+python test.py\ <br>
+  --data_dir data/test \<br>
+  --checkpoint checkpoints/best.pth \<br>
+  --output_dir reports<br>
+Generates:<br>
+->test_metrics.json<br>
+->Confusion matrix<br>
+->Per‑class metrics plot<br>
+->ROC curves<br>
+->Grad‑CAM visualizations<br>
 
-## 🔍 Inference + Grad‑CAM:
-python infer.py \
-  --image_path sample.jpg \
-  --checkpoint checkpoints/best.pth \
-  --enable_gradcam \
+## 🔍 Inference + Grad‑CAM
+python infer.py \<br>
+  --image_path sample.jpg<br>
+  --checkpoint checkpoints/best.pth \<br>
+  --enable_gradcam \<br>
   --output_dir inference_output
 
 ## 🧠 Model Architecture (Summary)
-“The core model is a ConvNeXt ensemble composed of ConvNeXt‑Tiny, ConvNeXt‑Small, and ConvNeXt‑Base backbones… ensemble output is computed by stacking each model output and applying learnable weights.”
-
-Ensemble Formula
-Output
-=
-∑
-𝑖
-=
-1
-3
-𝑤
-𝑖
-⋅
-𝑓
-𝑖
-(
-𝑥
-)
-Where:
-
-𝑓
-𝑖
-(
-𝑥
-)
- = output of each ConvNeXt model
-
-𝑤
-𝑖
- = learnable ensemble weights
+“The core model is a ConvNeXt ensemble composed of ConvNeXt‑Tiny, ConvNeXt‑Small, and ConvNeXt‑Base backbones… ensemble output is computed by stacking each model output and applying learnable weights.”<br>
 
 ## 📌Future Improvements
-->Add Vision Transformer (ViT) backbone
-->Mixed precision training
-->Class imbalance handling
-->ONNX/TorchScript export
-->FastAPI deployment
+->Add Vision Transformer (ViT) backbone<br>
+->Mixed precision training<br>
+->Class imbalance handling<br>
+->ONNX/TorchScript export<br>
+->FastAPI deployment<br>
