@@ -50,28 +50,34 @@ project/<br>
 ├── test.py<br>
 ├── infer.py<br>
 ├── requirements.txt<br>
-├── src/
+├── src/<br>
 │   ├── dataset.py<br>
 │   ├── model.py<br>
 │   ├── grad_cam.py<br>
 │   └── utils.py<br>
-├── checkpoints/
-├── logs/
-├── reports/
+├── checkpoints/<br>
+├── logs/<br>
+├── reports/<br>
 │   ├── test_metrics.json<br>
 │   ├── confusion_matrix.png<br>
 │   ├── per_class_metrics.png<br>
 │   ├── roc_curves.png<br>
 │   └── grad_cam/<br>
-└── data/
+└── data/<br>
     ├── train/<br>
     ├── val/<br>
     └── test/<br>
     
 ## 📈 Model Performance:
 From the evaluation report:<br>
-“Overall accuracy: 96.29%, Macro F1‑Score: 96.19%, ROC‑AUC: 0.99954.”<br>
-“Per‑class performance includes ADI F1: 96.57%, DEB F1: 96.77%, LYM F1: 95.88%, MUC F1: 95.53%.”<br>
+“Overall accuracy: 96.29%<br>
+->Macro F1‑Score: 96.19%<br>
+->ROC‑AUC: 0.99954.”<br>
+“Per‑class performance includes:
+=>ADI F1: 96.57%<br>
+=>DEB F1: 96.77%<br>
+=>LYM F1: 95.88%<br>
+=>MUC F1: 95.53%<br>
 
 ## Summary:
 | Metric | Score |
@@ -115,7 +121,7 @@ Outputs:
 *Metrics CSV<br>
 
 ## 🧪 Evaluation:
-python test.py\ <br>
+python test.py\<br>
   --data_dir data/test \<br>
   --checkpoint checkpoints/best.pth \<br>
   --output_dir reports<br>
