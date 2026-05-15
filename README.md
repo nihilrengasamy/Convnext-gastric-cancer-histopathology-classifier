@@ -3,7 +3,7 @@
 ## ConvNeXt Ensemble + Grad‑CAM | PyTorch
 A state‑of‑the‑art medical image classification system built using a ConvNeXt ensemble, Grad‑CAM interpretability, and a fully modular PyTorch training/evaluation pipeline.
 
-This project classifies four gastric cancer histopathology tissue types:
+This project classifies four gastric cancer histopathology tissue types:<br>
 
 -ADI (Adenocarcinoma)
 -DEB (Debris)
