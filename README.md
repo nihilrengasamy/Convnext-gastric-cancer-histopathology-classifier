@@ -95,27 +95,25 @@ cd project<br>
 pip install -r requirements.txt<br>
 
 ## ⚙️ Configuration:
-num_classes: 4
-image_size: 224
-batch_size: 32
-
-model:
-  name: convnext_ensemble
-  ensemble_models:
-    - convnext_tiny
-    - convnext_small
-    - convnext_base
-  pretrained: true
-  dropout: 0.2
-  enable_gradcam: true
-
-train:
-  epochs: 20
-  early_stopping_patience: 8
+num_classes: 4<br>
+image_size: 224<br>
+batch_size: 32<br>
+model:<br>
+  name: convnext_ensemble<br>
+  ensemble_models:<br>
+    - convnext_tiny<br>
+    - convnext_small<br>
+    - convnext_base<br>
+  pretrained: true<br>
+  dropout: 0.2<br>
+  enable_gradcam: true<br>
+train:<br>
+  epochs: 20<br>
+  early_stopping_patience: 8<br>
   
 ## 🏋️ Training:
 python train.py --config config.yaml<br>
-Outputs:
+### Outputs:
 *Best/last <br>
 *TensorBoard logs<br>
 *Metrics CSV<br>
@@ -132,7 +130,7 @@ Generates:<br>
 ->ROC curves<br>
 ->Grad‑CAM visualizations<br>
 
-## 🔍 Inference + Grad‑CAM
+## 🔍 Inference + Grad‑CAM:
 python infer.py \<br>
   --image_path sample.jpg<br>
   --checkpoint checkpoints/best.pth \<br>
