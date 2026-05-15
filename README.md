@@ -12,8 +12,8 @@ This project classifies four gastric cancer histopathology tissue types:
 
 The system achieves 96.29% accuracy and 0.9995 ROC‑AUC, with full interpretability and production‑ready evaluation tooling.
 
-Key Features
-🔥 Deep Learning Architecture
+## Key Features:
+##🔥 Deep Learning Architecture:
 ->ConvNeXt‑Tiny
 ->ConvNeXt‑Small
 ->ConvNeXt‑Base
