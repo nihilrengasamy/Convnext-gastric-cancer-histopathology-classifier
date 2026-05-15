@@ -1,0 +1,174 @@
+2026-04-19 17:33:13,333 | INFO | Using device: mps
+2026-04-19 17:33:13,335 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-19 17:33:13,335 | INFO | Train size: 244 | Val size: 153
+2026-04-19 17:34:11,000 | INFO | Epoch 1 | train_loss=0.3064 train_acc=0.8566 | val_loss=0.3036 val_acc=0.9085 val_precision=0.9367 val_recall=0.8916 val_f1=0.9136 | cm=[[65, 5], [9, 74]]
+2026-04-19 17:34:11,208 | INFO | Saved new best checkpoint with val_accuracy=0.9085
+2026-04-19 17:34:56,389 | INFO | Epoch 2 | train_loss=0.1246 train_acc=0.9590 | val_loss=0.6235 val_acc=0.8758 val_precision=0.9103 val_recall=0.8554 val_f1=0.8820 | cm=[[63, 7], [12, 71]]
+2026-04-19 17:35:41,613 | INFO | Epoch 3 | train_loss=0.0946 train_acc=0.9713 | val_loss=0.7139 val_acc=0.8889 val_precision=0.8667 val_recall=0.9398 val_f1=0.9017 | cm=[[58, 12], [5, 78]]
+2026-04-19 17:36:27,025 | INFO | Epoch 4 | train_loss=0.0743 train_acc=0.9795 | val_loss=0.4198 val_acc=0.9085 val_precision=0.8791 val_recall=0.9639 val_f1=0.9195 | cm=[[59, 11], [3, 80]]
+2026-04-19 17:37:12,359 | INFO | Epoch 5 | train_loss=0.0350 train_acc=0.9836 | val_loss=0.3310 val_acc=0.8954 val_precision=0.8941 val_recall=0.9157 val_f1=0.9048 | cm=[[61, 9], [7, 76]]
+2026-04-19 17:37:57,624 | INFO | Epoch 6 | train_loss=0.0198 train_acc=0.9918 | val_loss=0.3620 val_acc=0.9085 val_precision=0.9481 val_recall=0.8795 val_f1=0.9125 | cm=[[66, 4], [10, 73]]
+2026-04-19 17:37:57,735 | INFO | Early stopping triggered at epoch 6
+2026-04-19 17:37:57,736 | INFO | Training completed. Best validation accuracy: 0.9085
+2026-04-19 17:37:57,736 | INFO | Artifacts saved to: /Users/huiguo/Downloads/resnet_binary_project/checkpoints
+2026-04-20 02:16:40,779 | INFO | Using device: cpu
+2026-04-20 02:16:44,880 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 02:16:44,880 | INFO | Train size: 244 | Val size: 145
+2026-04-20 02:18:59,280 | INFO | Epoch 1 | train_loss=0.3050 train_acc=0.8648 | val_loss=0.2968 val_acc=0.9379 val_precision=0.9268 val_recall=0.9620 val_f1=0.9441 | cm=[[60, 6], [3, 76]]
+2026-04-20 02:19:11,091 | INFO | Saved new best checkpoint with val_accuracy=0.9379
+2026-04-20 02:20:36,224 | INFO | Epoch 2 | train_loss=0.1293 train_acc=0.9549 | val_loss=0.3206 val_acc=0.9172 val_precision=0.9136 val_recall=0.9367 val_f1=0.9250 | cm=[[59, 7], [5, 74]]
+2026-04-20 02:21:58,413 | INFO | Epoch 3 | train_loss=0.0805 train_acc=0.9754 | val_loss=0.4114 val_acc=0.9034 val_precision=0.9221 val_recall=0.8987 val_f1=0.9103 | cm=[[60, 6], [8, 71]]
+2026-04-20 02:23:20,126 | INFO | Epoch 4 | train_loss=0.0660 train_acc=0.9836 | val_loss=0.5273 val_acc=0.9103 val_precision=0.9583 val_recall=0.8734 val_f1=0.9139 | cm=[[63, 3], [10, 69]]
+2026-04-20 02:24:41,823 | INFO | Epoch 5 | train_loss=0.0390 train_acc=0.9836 | val_loss=0.7993 val_acc=0.8276 val_precision=0.9821 val_recall=0.6962 val_f1=0.8148 | cm=[[65, 1], [24, 55]]
+2026-04-20 02:26:02,935 | INFO | Epoch 6 | train_loss=0.0618 train_acc=0.9795 | val_loss=0.4350 val_acc=0.9034 val_precision=0.9851 val_recall=0.8354 val_f1=0.9041 | cm=[[65, 1], [13, 66]]
+2026-04-20 02:26:03,053 | INFO | Early stopping triggered at epoch 6
+2026-04-20 02:26:03,056 | INFO | Training completed. Best validation accuracy: 0.9379
+2026-04-20 02:26:03,060 | INFO | Artifacts saved to: /content/drive/MyDrive/resnet_binary_project/checkpoints
+2026-04-20 02:26:27,856 | INFO | Using device: cuda
+2026-04-20 02:26:31,734 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 02:26:31,735 | INFO | Train size: 244 | Val size: 145
+2026-04-20 02:30:50,798 | INFO | Using device: cuda
+2026-04-20 02:30:50,827 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 02:30:50,828 | INFO | Train size: 244 | Val size: 145
+2026-04-20 02:31:42,994 | INFO | Using device: cuda
+2026-04-20 02:31:43,029 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 02:31:43,029 | INFO | Train size: 244 | Val size: 145
+2026-04-20 02:31:51,516 | INFO | Epoch 1 | train_loss=0.3134 train_acc=0.8525 | val_loss=0.2522 val_acc=0.9103 val_precision=0.9714 val_recall=0.8608 val_f1=0.9128 | cm=[[64, 2], [11, 68]]
+2026-04-20 02:31:57,197 | INFO | Saved new best checkpoint with val_accuracy=0.9103
+2026-04-20 02:32:03,017 | INFO | Epoch 2 | train_loss=0.1002 train_acc=0.9754 | val_loss=0.2691 val_acc=0.9310 val_precision=0.9481 val_recall=0.9241 val_f1=0.9359 | cm=[[62, 4], [6, 73]]
+2026-04-20 02:32:03,360 | INFO | Saved new best checkpoint with val_accuracy=0.9310
+2026-04-20 02:32:10,219 | INFO | Epoch 3 | train_loss=0.0361 train_acc=0.9877 | val_loss=0.3779 val_acc=0.9103 val_precision=0.9231 val_recall=0.9114 val_f1=0.9172 | cm=[[60, 6], [7, 72]]
+2026-04-20 02:32:17,565 | INFO | Epoch 4 | train_loss=0.0779 train_acc=0.9836 | val_loss=0.2789 val_acc=0.9448 val_precision=0.9733 val_recall=0.9241 val_f1=0.9481 | cm=[[64, 2], [6, 73]]
+2026-04-20 02:32:18,031 | INFO | Saved new best checkpoint with val_accuracy=0.9448
+2026-04-20 02:32:22,208 | INFO | Epoch 5 | train_loss=0.0319 train_acc=0.9877 | val_loss=0.2601 val_acc=0.9310 val_precision=0.9059 val_recall=0.9747 val_f1=0.9390 | cm=[[58, 8], [2, 77]]
+2026-04-20 02:32:30,119 | INFO | Epoch 6 | train_loss=0.0246 train_acc=0.9918 | val_loss=0.2781 val_acc=0.9241 val_precision=0.9595 val_recall=0.8987 val_f1=0.9281 | cm=[[63, 3], [8, 71]]
+2026-04-20 02:32:34,568 | INFO | Epoch 7 | train_loss=0.0077 train_acc=1.0000 | val_loss=0.2935 val_acc=0.9310 val_precision=0.9726 val_recall=0.8987 val_f1=0.9342 | cm=[[64, 2], [8, 71]]
+2026-04-20 02:32:39,730 | INFO | Epoch 8 | train_loss=0.0172 train_acc=0.9918 | val_loss=0.2971 val_acc=0.9310 val_precision=0.9600 val_recall=0.9114 val_f1=0.9351 | cm=[[63, 3], [7, 72]]
+2026-04-20 02:32:45,689 | INFO | Epoch 9 | train_loss=0.0118 train_acc=0.9959 | val_loss=0.2929 val_acc=0.9241 val_precision=0.9722 val_recall=0.8861 val_f1=0.9272 | cm=[[64, 2], [9, 70]]
+2026-04-20 02:32:45,825 | INFO | Early stopping triggered at epoch 9
+2026-04-20 02:32:45,833 | INFO | Training completed. Best validation accuracy: 0.9448
+2026-04-20 02:32:45,837 | INFO | Artifacts saved to: /content/drive/MyDrive/resnet_binary_project/checkpoints
+2026-04-20 02:37:03,897 | INFO | Using device: cuda
+2026-04-20 02:37:03,919 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 02:37:03,919 | INFO | Train size: 244 | Val size: 145
+2026-04-20 02:37:09,368 | INFO | Epoch 1 | train_loss=0.3134 train_acc=0.8525 | val_loss=0.2522 val_acc=0.9103 val_precision=0.9714 val_recall=0.8608 val_f1=0.9128 | cm=[[64, 2], [11, 68]]
+2026-04-20 02:37:09,710 | INFO | Saved new best checkpoint with val_accuracy=0.9103
+2026-04-20 02:37:16,217 | INFO | Epoch 2 | train_loss=0.1002 train_acc=0.9754 | val_loss=0.2691 val_acc=0.9310 val_precision=0.9481 val_recall=0.9241 val_f1=0.9359 | cm=[[62, 4], [6, 73]]
+2026-04-20 02:37:16,623 | INFO | Saved new best checkpoint with val_accuracy=0.9310
+2026-04-20 02:37:20,900 | INFO | Epoch 3 | train_loss=0.0361 train_acc=0.9877 | val_loss=0.3779 val_acc=0.9103 val_precision=0.9231 val_recall=0.9114 val_f1=0.9172 | cm=[[60, 6], [7, 72]]
+2026-04-20 02:37:27,253 | INFO | Epoch 4 | train_loss=0.0779 train_acc=0.9836 | val_loss=0.2789 val_acc=0.9448 val_precision=0.9733 val_recall=0.9241 val_f1=0.9481 | cm=[[64, 2], [6, 73]]
+2026-04-20 02:37:27,649 | INFO | Saved new best checkpoint with val_accuracy=0.9448
+2026-04-20 02:37:33,292 | INFO | Epoch 5 | train_loss=0.0319 train_acc=0.9877 | val_loss=0.2601 val_acc=0.9310 val_precision=0.9059 val_recall=0.9747 val_f1=0.9390 | cm=[[58, 8], [2, 77]]
+2026-04-20 02:37:38,704 | INFO | Epoch 6 | train_loss=0.0246 train_acc=0.9918 | val_loss=0.2781 val_acc=0.9241 val_precision=0.9595 val_recall=0.8987 val_f1=0.9281 | cm=[[63, 3], [8, 71]]
+2026-04-20 02:37:44,972 | INFO | Epoch 7 | train_loss=0.0077 train_acc=1.0000 | val_loss=0.2935 val_acc=0.9310 val_precision=0.9726 val_recall=0.8987 val_f1=0.9342 | cm=[[64, 2], [8, 71]]
+2026-04-20 02:37:51,642 | INFO | Epoch 8 | train_loss=0.0172 train_acc=0.9918 | val_loss=0.2971 val_acc=0.9310 val_precision=0.9600 val_recall=0.9114 val_f1=0.9351 | cm=[[63, 3], [7, 72]]
+2026-04-20 02:37:56,423 | INFO | Epoch 9 | train_loss=0.0118 train_acc=0.9959 | val_loss=0.2929 val_acc=0.9241 val_precision=0.9722 val_recall=0.8861 val_f1=0.9272 | cm=[[64, 2], [9, 70]]
+2026-04-20 02:37:56,582 | INFO | Early stopping triggered at epoch 9
+2026-04-20 02:37:56,591 | INFO | Training completed. Best validation accuracy: 0.9448
+2026-04-20 02:37:56,593 | INFO | Artifacts saved to: /content/drive/MyDrive/resnet_binary_project/checkpoints
+2026-04-20 02:48:15,068 | INFO | Using device: cuda
+2026-04-20 02:48:15,092 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 02:48:15,093 | INFO | Train size: 244 | Val size: 145
+2026-04-20 02:48:21,682 | INFO | Epoch 1 | train_loss=0.3134 train_acc=0.8525 | val_loss=0.2522 val_acc=0.9103 val_precision=0.9714 val_recall=0.8608 val_f1=0.9128 | cm=[[64, 2], [11, 68]]
+2026-04-20 02:48:21,965 | INFO | Saved new best checkpoint with val_accuracy=0.9103
+2026-04-20 02:48:26,598 | INFO | Epoch 2 | train_loss=0.1002 train_acc=0.9754 | val_loss=0.2691 val_acc=0.9310 val_precision=0.9481 val_recall=0.9241 val_f1=0.9359 | cm=[[62, 4], [6, 73]]
+2026-04-20 02:48:26,886 | INFO | Saved new best checkpoint with val_accuracy=0.9310
+2026-04-20 02:48:32,586 | INFO | Epoch 3 | train_loss=0.0361 train_acc=0.9877 | val_loss=0.3779 val_acc=0.9103 val_precision=0.9231 val_recall=0.9114 val_f1=0.9172 | cm=[[60, 6], [7, 72]]
+2026-04-20 02:48:38,835 | INFO | Epoch 4 | train_loss=0.0779 train_acc=0.9836 | val_loss=0.2789 val_acc=0.9448 val_precision=0.9733 val_recall=0.9241 val_f1=0.9481 | cm=[[64, 2], [6, 73]]
+2026-04-20 02:48:39,187 | INFO | Saved new best checkpoint with val_accuracy=0.9448
+2026-04-20 02:48:43,510 | INFO | Epoch 5 | train_loss=0.0319 train_acc=0.9877 | val_loss=0.2601 val_acc=0.9310 val_precision=0.9059 val_recall=0.9747 val_f1=0.9390 | cm=[[58, 8], [2, 77]]
+2026-04-20 02:48:50,613 | INFO | Epoch 6 | train_loss=0.0246 train_acc=0.9918 | val_loss=0.2781 val_acc=0.9241 val_precision=0.9595 val_recall=0.8987 val_f1=0.9281 | cm=[[63, 3], [8, 71]]
+2026-04-20 02:48:54,966 | INFO | Epoch 7 | train_loss=0.0077 train_acc=1.0000 | val_loss=0.2935 val_acc=0.9310 val_precision=0.9726 val_recall=0.8987 val_f1=0.9342 | cm=[[64, 2], [8, 71]]
+2026-04-20 02:48:59,217 | INFO | Epoch 8 | train_loss=0.0172 train_acc=0.9918 | val_loss=0.2971 val_acc=0.9310 val_precision=0.9600 val_recall=0.9114 val_f1=0.9351 | cm=[[63, 3], [7, 72]]
+2026-04-20 02:49:05,518 | INFO | Epoch 9 | train_loss=0.0118 train_acc=0.9959 | val_loss=0.2929 val_acc=0.9241 val_precision=0.9722 val_recall=0.8861 val_f1=0.9272 | cm=[[64, 2], [9, 70]]
+2026-04-20 02:49:05,646 | INFO | Early stopping triggered at epoch 9
+2026-04-20 02:49:05,652 | INFO | Training completed. Best validation accuracy: 0.9448
+2026-04-20 02:49:05,655 | INFO | Artifacts saved to: /content/drive/MyDrive/resnet_binary_project/checkpoints
+2026-04-20 02:59:41,852 | INFO | Using device: cuda
+2026-04-20 02:59:41,880 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 02:59:41,880 | INFO | Train size: 244 | Val size: 145
+2026-04-20 02:59:47,458 | INFO | Epoch 1 | train_loss=0.3134 train_acc=0.8525 | val_loss=0.2522 val_acc=0.9103 val_precision=0.9714 val_recall=0.8608 val_f1=0.9128 | cm=[[64, 2], [11, 68]]
+2026-04-20 02:59:47,834 | INFO | Saved new best checkpoint with val_accuracy=0.9103
+2026-04-20 02:59:52,239 | INFO | Epoch 2 | train_loss=0.1002 train_acc=0.9754 | val_loss=0.2691 val_acc=0.9310 val_precision=0.9481 val_recall=0.9241 val_f1=0.9359 | cm=[[62, 4], [6, 73]]
+2026-04-20 02:59:52,523 | INFO | Saved new best checkpoint with val_accuracy=0.9310
+2026-04-20 02:59:58,453 | INFO | Epoch 3 | train_loss=0.0361 train_acc=0.9877 | val_loss=0.3779 val_acc=0.9103 val_precision=0.9231 val_recall=0.9114 val_f1=0.9172 | cm=[[60, 6], [7, 72]]
+2026-04-20 03:00:04,652 | INFO | Epoch 4 | train_loss=0.0779 train_acc=0.9836 | val_loss=0.2789 val_acc=0.9448 val_precision=0.9733 val_recall=0.9241 val_f1=0.9481 | cm=[[64, 2], [6, 73]]
+2026-04-20 03:00:04,939 | INFO | Saved new best checkpoint with val_accuracy=0.9448
+2026-04-20 03:00:09,794 | INFO | Epoch 5 | train_loss=0.0319 train_acc=0.9877 | val_loss=0.2601 val_acc=0.9310 val_precision=0.9059 val_recall=0.9747 val_f1=0.9390 | cm=[[58, 8], [2, 77]]
+2026-04-20 03:00:17,032 | INFO | Epoch 6 | train_loss=0.0246 train_acc=0.9918 | val_loss=0.2781 val_acc=0.9241 val_precision=0.9595 val_recall=0.8987 val_f1=0.9281 | cm=[[63, 3], [8, 71]]
+2026-04-20 03:00:21,429 | INFO | Epoch 7 | train_loss=0.0077 train_acc=1.0000 | val_loss=0.2935 val_acc=0.9310 val_precision=0.9726 val_recall=0.8987 val_f1=0.9342 | cm=[[64, 2], [8, 71]]
+2026-04-20 03:00:26,823 | INFO | Epoch 8 | train_loss=0.0172 train_acc=0.9918 | val_loss=0.2971 val_acc=0.9310 val_precision=0.9600 val_recall=0.9114 val_f1=0.9351 | cm=[[63, 3], [7, 72]]
+2026-04-20 03:00:31,971 | INFO | Epoch 9 | train_loss=0.0118 train_acc=0.9959 | val_loss=0.2929 val_acc=0.9241 val_precision=0.9722 val_recall=0.8861 val_f1=0.9272 | cm=[[64, 2], [9, 70]]
+2026-04-20 03:00:32,144 | INFO | Early stopping triggered at epoch 9
+2026-04-20 03:00:32,149 | INFO | Training completed. Best validation accuracy: 0.9448
+2026-04-20 03:00:32,158 | INFO | Artifacts saved to: /content/drive/MyDrive/resnet_binary_project/checkpoints
+2026-04-20 03:06:21,248 | INFO | Using device: cuda
+2026-04-20 03:06:21,271 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 03:06:21,271 | INFO | Train size: 244 | Val size: 145
+2026-04-20 03:06:26,115 | INFO | Epoch 1 | train_loss=0.3075 train_acc=0.8648 | val_loss=0.2478 val_acc=0.9241 val_precision=0.9250 val_recall=0.9367 val_f1=0.9308 | cm=[[60, 6], [5, 74]]
+2026-04-20 03:06:26,428 | INFO | Saved new best checkpoint with val_accuracy=0.9241
+2026-04-20 03:06:31,077 | INFO | Epoch 2 | train_loss=0.1201 train_acc=0.9631 | val_loss=0.4222 val_acc=0.8966 val_precision=0.8902 val_recall=0.9241 val_f1=0.9068 | cm=[[57, 9], [6, 73]]
+2026-04-20 03:06:38,263 | INFO | Epoch 3 | train_loss=0.0656 train_acc=0.9795 | val_loss=0.5608 val_acc=0.8759 val_precision=0.8588 val_recall=0.9241 val_f1=0.8902 | cm=[[54, 12], [6, 73]]
+2026-04-20 03:06:42,545 | INFO | Epoch 4 | train_loss=0.0660 train_acc=0.9836 | val_loss=0.3715 val_acc=0.9034 val_precision=0.9114 val_recall=0.9114 val_f1=0.9114 | cm=[[59, 7], [7, 72]]
+2026-04-20 03:06:47,688 | INFO | Epoch 5 | train_loss=0.0319 train_acc=0.9877 | val_loss=0.3388 val_acc=0.9172 val_precision=0.9241 val_recall=0.9241 val_f1=0.9241 | cm=[[60, 6], [6, 73]]
+2026-04-20 03:06:52,860 | INFO | Epoch 6 | train_loss=0.0549 train_acc=0.9795 | val_loss=0.3741 val_acc=0.8966 val_precision=0.9571 val_recall=0.8481 val_f1=0.8993 | cm=[[63, 3], [12, 67]]
+2026-04-20 03:06:53,012 | INFO | Early stopping triggered at epoch 6
+2026-04-20 03:06:53,020 | INFO | Training completed. Best validation accuracy: 0.9241
+2026-04-20 03:06:53,025 | INFO | Artifacts saved to: /content/drive/MyDrive/resnet_binary_project/checkpoints
+2026-04-20 03:14:32,974 | INFO | Using device: cuda
+2026-04-20 03:14:33,003 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 03:14:33,003 | INFO | Train size: 244 | Val size: 145
+2026-04-20 03:14:39,211 | INFO | Epoch 1 | train_loss=0.3075 train_acc=0.8648 | val_loss=0.2478 val_acc=0.9241 val_precision=0.9250 val_recall=0.9367 val_f1=0.9308 | cm=[[60, 6], [5, 74]]
+2026-04-20 03:14:39,558 | INFO | Saved new best checkpoint with val_accuracy=0.9241
+2026-04-20 03:14:43,709 | INFO | Epoch 2 | train_loss=0.1201 train_acc=0.9631 | val_loss=0.4222 val_acc=0.8966 val_precision=0.8902 val_recall=0.9241 val_f1=0.9068 | cm=[[57, 9], [6, 73]]
+2026-04-20 03:14:49,316 | INFO | Epoch 3 | train_loss=0.0656 train_acc=0.9795 | val_loss=0.5608 val_acc=0.8759 val_precision=0.8588 val_recall=0.9241 val_f1=0.8902 | cm=[[54, 12], [6, 73]]
+2026-04-20 03:14:54,388 | INFO | Epoch 4 | train_loss=0.0660 train_acc=0.9836 | val_loss=0.3715 val_acc=0.9034 val_precision=0.9114 val_recall=0.9114 val_f1=0.9114 | cm=[[59, 7], [7, 72]]
+2026-04-20 03:14:58,683 | INFO | Epoch 5 | train_loss=0.0319 train_acc=0.9877 | val_loss=0.3388 val_acc=0.9172 val_precision=0.9241 val_recall=0.9241 val_f1=0.9241 | cm=[[60, 6], [6, 73]]
+2026-04-20 03:15:03,791 | INFO | Epoch 6 | train_loss=0.0549 train_acc=0.9795 | val_loss=0.3741 val_acc=0.8966 val_precision=0.9571 val_recall=0.8481 val_f1=0.8993 | cm=[[63, 3], [12, 67]]
+2026-04-20 03:15:03,960 | INFO | Early stopping triggered at epoch 6
+2026-04-20 03:15:03,986 | INFO | Training completed. Best validation accuracy: 0.9241
+2026-04-20 03:15:03,989 | INFO | Artifacts saved to: /content/drive/MyDrive/resnet_binary_project/checkpoints
+2026-04-20 03:20:56,905 | INFO | Using device: cuda
+2026-04-20 03:20:56,926 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 03:20:56,926 | INFO | Train size: 244 | Val size: 145
+2026-04-20 03:21:01,796 | INFO | Epoch 1 | train_loss=0.3075 train_acc=0.8648 | val_loss=0.2478 val_acc=0.9241 val_precision=0.9250 val_recall=0.9367 val_f1=0.9308 | cm=[[60, 6], [5, 74]]
+2026-04-20 03:21:02,108 | INFO | Saved new best checkpoint with val_accuracy=0.9241
+2026-04-20 03:21:06,416 | INFO | Epoch 2 | train_loss=0.1201 train_acc=0.9631 | val_loss=0.4222 val_acc=0.8966 val_precision=0.8902 val_recall=0.9241 val_f1=0.9068 | cm=[[57, 9], [6, 73]]
+2026-04-20 03:21:12,415 | INFO | Epoch 3 | train_loss=0.0656 train_acc=0.9795 | val_loss=0.5608 val_acc=0.8759 val_precision=0.8588 val_recall=0.9241 val_f1=0.8902 | cm=[[54, 12], [6, 73]]
+2026-04-20 03:21:18,233 | INFO | Epoch 4 | train_loss=0.0660 train_acc=0.9836 | val_loss=0.3715 val_acc=0.9034 val_precision=0.9114 val_recall=0.9114 val_f1=0.9114 | cm=[[59, 7], [7, 72]]
+2026-04-20 03:21:23,172 | INFO | Epoch 5 | train_loss=0.0319 train_acc=0.9877 | val_loss=0.3388 val_acc=0.9172 val_precision=0.9241 val_recall=0.9241 val_f1=0.9241 | cm=[[60, 6], [6, 73]]
+2026-04-20 03:21:28,244 | INFO | Epoch 6 | train_loss=0.0549 train_acc=0.9795 | val_loss=0.3741 val_acc=0.8966 val_precision=0.9571 val_recall=0.8481 val_f1=0.8993 | cm=[[63, 3], [12, 67]]
+2026-04-20 03:21:28,392 | INFO | Early stopping triggered at epoch 6
+2026-04-20 03:21:28,403 | INFO | Training completed. Best validation accuracy: 0.9241
+2026-04-20 03:21:28,406 | INFO | Artifacts saved to: /content/drive/MyDrive/resnet_binary_project/checkpoints
+2026-04-20 03:29:33,598 | INFO | Using device: cuda
+2026-04-20 03:29:34,828 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 03:29:34,828 | INFO | Train size: 244 | Val size: 145
+2026-04-20 03:29:42,540 | INFO | Epoch 1 | train_loss=0.3075 train_acc=0.8648 | val_loss=0.2478 val_acc=0.9241 val_precision=0.9250 val_recall=0.9367 val_f1=0.9308 | cm=[[60, 6], [5, 74]]
+2026-04-20 03:29:50,854 | INFO | Saved new best checkpoint with val_accuracy=0.9241
+2026-04-20 03:29:57,734 | INFO | Epoch 2 | train_loss=0.1201 train_acc=0.9631 | val_loss=0.4222 val_acc=0.8966 val_precision=0.8902 val_recall=0.9241 val_f1=0.9068 | cm=[[57, 9], [6, 73]]
+2026-04-20 03:30:02,400 | INFO | Epoch 3 | train_loss=0.0656 train_acc=0.9795 | val_loss=0.5608 val_acc=0.8759 val_precision=0.8588 val_recall=0.9241 val_f1=0.8902 | cm=[[54, 12], [6, 73]]
+2026-04-20 03:30:07,052 | INFO | Epoch 4 | train_loss=0.0660 train_acc=0.9836 | val_loss=0.3715 val_acc=0.9034 val_precision=0.9114 val_recall=0.9114 val_f1=0.9114 | cm=[[59, 7], [7, 72]]
+2026-04-20 03:30:12,645 | INFO | Epoch 5 | train_loss=0.0319 train_acc=0.9877 | val_loss=0.3388 val_acc=0.9172 val_precision=0.9241 val_recall=0.9241 val_f1=0.9241 | cm=[[60, 6], [6, 73]]
+2026-04-20 03:30:16,949 | INFO | Epoch 6 | train_loss=0.0549 train_acc=0.9795 | val_loss=0.3741 val_acc=0.8966 val_precision=0.9571 val_recall=0.8481 val_f1=0.8993 | cm=[[63, 3], [12, 67]]
+2026-04-20 03:30:17,102 | INFO | Early stopping triggered at epoch 6
+2026-04-20 03:30:17,108 | INFO | Training completed. Best validation accuracy: 0.9241
+2026-04-20 03:30:17,109 | INFO | Artifacts saved to: /content/drive/MyDrive/resnet_binary_project/checkpoints
+2026-04-20 03:34:43,140 | INFO | Using device: cuda
+2026-04-20 03:34:43,160 | INFO | Class mapping: {'ants': 0, 'bees': 1}
+2026-04-20 03:34:43,160 | INFO | Train size: 244 | Val size: 145
+2026-04-20 03:34:50,018 | INFO | Epoch 1 | train_loss=0.3075 train_acc=0.8648 | val_loss=0.2478 val_acc=0.9241 val_precision=0.9250 val_recall=0.9367 val_f1=0.9308 | cm=[[60, 6], [5, 74]]
+2026-04-20 03:34:50,311 | INFO | Saved new best checkpoint with val_accuracy=0.9241
+2026-04-20 03:34:54,711 | INFO | Epoch 2 | train_loss=0.1201 train_acc=0.9631 | val_loss=0.4222 val_acc=0.8966 val_precision=0.8902 val_recall=0.9241 val_f1=0.9068 | cm=[[57, 9], [6, 73]]
+2026-04-20 03:34:59,620 | INFO | Epoch 3 | train_loss=0.0656 train_acc=0.9795 | val_loss=0.5608 val_acc=0.8759 val_precision=0.8588 val_recall=0.9241 val_f1=0.8902 | cm=[[54, 12], [6, 73]]
+2026-04-20 03:35:05,698 | INFO | Epoch 4 | train_loss=0.0660 train_acc=0.9836 | val_loss=0.3715 val_acc=0.9034 val_precision=0.9114 val_recall=0.9114 val_f1=0.9114 | cm=[[59, 7], [7, 72]]
+2026-04-20 03:35:09,964 | INFO | Epoch 5 | train_loss=0.0319 train_acc=0.9877 | val_loss=0.3388 val_acc=0.9172 val_precision=0.9241 val_recall=0.9241 val_f1=0.9241 | cm=[[60, 6], [6, 73]]
+2026-04-20 03:35:14,357 | INFO | Epoch 6 | train_loss=0.0549 train_acc=0.9795 | val_loss=0.3741 val_acc=0.8966 val_precision=0.9571 val_recall=0.8481 val_f1=0.8993 | cm=[[63, 3], [12, 67]]
+2026-04-20 03:35:14,506 | INFO | Early stopping triggered at epoch 6
+2026-04-20 03:35:14,537 | INFO | Training completed. Best validation accuracy: 0.9241
+2026-04-20 03:35:14,540 | INFO | Artifacts saved to: /content/drive/MyDrive/resnet_binary_project/checkpoints
+2026-05-05 22:27:42,593 | INFO | Using device: cpu
+2026-05-05 22:27:42,641 | INFO | Class mapping: {'ADI': 0, 'DEB': 1, 'LYM': 2, 'MUC': 3}
+2026-05-05 22:27:42,642 | INFO | Train size: 9400 | Val size: 2685
+2026-05-05 22:27:42,642 | INFO | Number of classes: 4
+2026-05-05 22:27:56,265 | INFO | Model: convnext_ensemble with 3 ensemble members
