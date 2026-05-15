@@ -5,10 +5,10 @@ A state‑of‑the‑art medical image classification system built using a ConvN
 
 This project classifies four gastric cancer histopathology tissue types:
 
-->ADI (Adenocarcinoma)
-->DEB (Debris)
-->LYM (Lymphocytes)
-->MUC (Mucin)
+*ADI (Adenocarcinoma)
+*DEB (Debris)
+*LYM (Lymphocytes)
+*MUC (Mucin)
 
 The system achieves 96.29% accuracy and 0.9995 ROC‑AUC, with full interpretability and production‑ready evaluation tooling.
 
