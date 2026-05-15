@@ -5,25 +5,25 @@ A state‑of‑the‑art medical image classification system built using a ConvN
 
 This project classifies four gastric cancer histopathology tissue types:<br>
 
--ADI (Adenocarcinoma)
--DEB (Debris)
--LYM (Lymphocytes)
--MUC (Mucin)
+-ADI (Adenocarcinoma)<br>
+-DEB (Debris)<br>
+-LYM (Lymphocytes)<br>
+-MUC (Mucin)<br>
 
 The system achieves 96.29% accuracy and 0.9995 ROC‑AUC, with full interpretability and production‑ready evaluation tooling.
 
 ## Key Features:
-##🔥 Deep Learning Architecture:
-->ConvNeXt‑Tiny
-->ConvNeXt‑Small
-->ConvNeXt‑Base
+🔥 Deep Learning Architecture:<br>
+->ConvNeXt‑Tiny<br>
+->ConvNeXt‑Small<br>
+->ConvNeXt‑Base<br>
 
 All combined using learnable ensemble weights for optimal performance.
 
 🧠 Interpretability
-Grad‑CAM heatmaps for each model:
-->Highlights regions influencing predictions
-->Ensures model focuses on relevant histopathological structures
+Grad‑CAM heatmaps for each model:<br>
+->Highlights regions influencing predictions<br>
+->Ensures model focuses on relevant histopathological structures<br>
 “Interpretability is provided through Grad‑CAM attention maps, which highlight regions contributing most to each prediction.”
 
 ## 📊Comprehensive Evaluation
